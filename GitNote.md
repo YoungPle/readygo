@@ -40,15 +40,15 @@
 
 #12.创建远程仓库
 ##12.1 创建SSH Key
-###		ssh-keygen -t rsa -C "93716292@qq.com"
+		ssh-keygen -t rsa -C "93716292@qq.com"
 ##12.2 在github个人账号设置里添加SSH Key(id_rsa.pub)
 
 #13.添加远程仓库
 ##13.1 在github上创建一个repository
 ##13.2 将本地仓库与github上的仓库关联
-	###git remote add origin git@github.com:YoungPle/readygo.git
+	git remote add origin git@github.com:YoungPle/readygo.git
 ##13.3将本地仓库推送到github
-	###git push -u origin master #-u表示将本地的master分支和github上的mster关联、后面的修改推送不需要改选项
+	git push -u origin master #-u表示将本地的master分支和github上的mster关联、后面的修改推送不需要改选项
 	
 #14.克隆github上的版本库到本地
 ##git clone git@github.com:YoungPle/readygo.git
